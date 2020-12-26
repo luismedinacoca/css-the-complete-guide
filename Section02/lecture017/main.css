@@ -1,0 +1,15 @@
+/* ID-selector*/
+#product-overview {
+    background: #ff1b68;
+}
+
+/* Element selector */
+h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* class selector */
+.section-title {
+    color: #2ddf5c;
+}
