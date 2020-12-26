@@ -1,19 +1,13 @@
-# css-the-complete-guide
-css the complete guide include flexbox grid and sass
-
-SECTION 02 - LECTURE 017:
-=========================
-
 More About Selectors:
 *********************
 
 1. Elements:
 
-   |HTML:               | CSS            |
-   |:------------------:|:--------------:| 
-   |<h1>Our header</h1> | h1{            |
-   |                    |     color: red;|
-   |                    | }              |
+   |HTML:                 | CSS                |
+   |:--------------------:|:------------------:| 
+   |<h 1>Our header</h 1> | h1{                |
+   |                      |     color: red;    |
+   |                      | }                  |
 
 2. Classes:
 
@@ -48,11 +42,6 @@ More About Selectors:
    |</button>             | }                |
 
 
-
-
-SECTION 02 - LECTURE 018:
-=========================
-
 Cascading Style Sheets & Specificity
 ************************************
 
@@ -68,27 +57,24 @@ Cascading Style Sheets & Specificity
     }
 
 2. Specficity => resolve conflicts arising from multiple rules
+                                              
+    2.1 Inline style                          
+    2.2 #ID selectors                         
+    2.3 .class :pseudo-class and [attributes] 
+    2.4 <tag> and ::pseudo-elements selectors 
 
-    2.1 Inline style
-    2.2 #ID selectors
-    2.3 .class :pseudo-class and [attributes]
-    2.4 <tag> and ::pseudo-elements selectors
 
-
-SECTION 02 - LECTURE 020: Combinators
-=====================================
-
-Combinator: combinator: an ID and a tag or anything else
+Combinator: 
 ***********
-
+/* combinator: an ID and a tag or anything else*/
    #product-overview h1 {
       color: white;
       font-family: 'Anton', sans-serif;
    }
 
 
-SECTION 02 - LECTURE 021: Theory Times - COmbinators
-=====================================================
+Theory Times - Combinators
+**************************
 
 1. Adjancent Siblings:
    - elements share the same parent
@@ -104,7 +90,7 @@ SECTION 02 - LECTURE 021: Theory Times - COmbinators
       <h2>Not applied</h2>
       <p> ****** CSS applied ****** </p> <!--changes applied here-->
       <h3>Not applied</h3>
-      <p>CSS NOT applied</p> <!--changes NOT applied here-->
+      <p>CSS NOT applied</p> <!--changes NOT applied here, they're NOT immediately -->
       <h2>Not applied</h2>
       <p> ****** CSS applied ****** </p> <!--changes applied here-->
    </div>
