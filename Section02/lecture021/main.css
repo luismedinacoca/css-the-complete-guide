@@ -29,6 +29,7 @@ h3~p {
 }
 
 
+/* Child: */
 section > h2 {
     color:darksalmon;
 }

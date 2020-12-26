@@ -95,9 +95,10 @@ Theory Times - Combinators
       <p> ****** CSS applied ****** </p> <!--changes applied here-->
    </div>
 
-2. General Siblings:
-   - Elements share the same parent
-   - Second element comes after first element but not immediately
+2. General Siblings:
+
+   - Elements share the same parent
+   - Second element comes after first element but not immediately
 
    CSS:
    h2 ~ p {
@@ -114,3 +115,22 @@ Theory Times - Combinators
       <h3>Not applied</h3>
       <p> ****** CSS applied ****** </p> <!--changes applied here-->
    </div>
+
+3. Child:
+   - second element is a direct child of first element
+
+   CSS:
+   div > p {
+      color: red;
+   }
+
+   HTML:
+   <div>
+      <div>Not Applied</div>
+      <p> ******** CSS applied ******** </p>
+      <div>Not applied</div>
+      <article>
+         <p> CSS NOT applied</p>
+      </article>
+      <p> ******** CSS applied ******** </p>
+   </div>
