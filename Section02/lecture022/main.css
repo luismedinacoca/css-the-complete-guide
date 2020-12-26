@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ID-selector*/
+#product-overview {
+    background: #ff1b68;
+}
+
+/* class selector */
+.section-title {
+    color: #2ddf5c;
+}
+
+/* combinator: an ID and a tag */
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* Adjacent siblings*/
+h2+p {
+    color: rgba(50, 163, 163, 0.938);
+}
+
+/* General siblings*/
+h3~p {
+    color: red;
+}
+
+
+/* Child: */
+section > h2 {
+    color:darksalmon;
+}
