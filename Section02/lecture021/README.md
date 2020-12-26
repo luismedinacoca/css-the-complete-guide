@@ -134,3 +134,22 @@ Theory Times - Combinators
       </article>
       <p> ******** CSS applied ******** </p>
    </div>
+
+   4. Descendant:
+      - Second element is a descendant of the first element
+
+      CSS:
+      div p{
+         color: red;
+      }
+
+      HTML:
+      <div>
+         <div>Not Applied</div>
+         <p> ******** CSS applied ******** </p>
+         <div>Not applied</div>
+         <article>
+            <p> ******** CSS applied ******** </p>
+         </article>
+         <p> ******** CSS applied ******** </p>
+      </div>
