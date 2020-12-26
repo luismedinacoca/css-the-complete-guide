@@ -18,6 +18,17 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+/* Adjacent siblings*/
 h2+p {
     color: rgba(50, 163, 163, 0.938);
+}
+
+/* General siblings*/
+h3~p {
+    color: red;
+}
+
+
+section > h2 {
+    color:darksalmon;
 }
