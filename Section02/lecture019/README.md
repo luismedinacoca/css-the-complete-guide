@@ -1,9 +1,3 @@
-# css-the-complete-guide
-css the complete guide include flexbox grid and sass
-
-SECTION 02 - LECTURE 017:
-=========================
-
 More About Selectors:
 *********************
 
@@ -48,11 +42,6 @@ More About Selectors:
    |</button>             | }                |
 
 
-
-
-SECTION 02 - LECTURE 018:
-=========================
-
 Cascading Style Sheets & Specificity
 ************************************
 
@@ -68,8 +57,8 @@ Cascading Style Sheets & Specificity
     }
 
 2. Specficity => resolve conflicts arising from multiple rules
-
-    2.1 Inline style
-    2.2 #ID selectors
-    2.3 .class :pseudo-class and [attributes]
-    2.4 <tag> and ::pseudo-elements selectors
+                                                __
+    2.1 Inline style                           /  \
+    2.2 #ID selectors                           ||
+    2.3 .class :pseudo-class and [attributes]   ||
+    2.4 <tag> and ::pseudo-elements selectors   ||
