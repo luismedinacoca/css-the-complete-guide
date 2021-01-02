@@ -293,3 +293,30 @@ If the parent element has padding, inline content (other than the child elements
 3. An empty element with margins
 
 This case probably doesn't occur that often but if you got an element with no content, no padding, no border and no height, then the top and bottom margin will be merged into one single margin. Again, the bigger one wins.
+
+SECTION 03 - LECTURE 030: Working with shorthand properties
+===========================================================
+
+1. Separated properties:
+   Border:
+      border-width: 2px;
+      border-style: dashed;
+      border-color:orange;
+
+   Margin:
+      margin-top: 5px;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      margin-left: 10px;
+
+2. shorthand property:
+   Border:
+      border: 2px dashed orange;
+
+   Margin:
+      margin: 5px  10px    5px    10px;
+             (top)(right)(bottom)(left) 
+      margin:   5px          10px;
+            (top&bottom) (left&right) 
+      margin: 10px;
+
