@@ -183,3 +183,24 @@ look for "MDN CSS reference" on google
 https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 
+SECTION 03 - LECTURE 026: Box Model:
+====================================
+
+//by default:
+h1 {
+    margin: 19.920,
+    border: 0,
+    padding: 0,
+}
+
+ ------------------------------------
+|  margin 19.920                     |
+|   -------------------------------  |
+|   |   border         ---         | |
+|   |      ----------------------  | |
+|   |     |  padding    ---      | | |
+|   |     |      -------------   | | |
+|   |     |     |     text    |  | | |
+
+
+

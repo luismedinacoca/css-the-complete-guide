@@ -1,0 +1,14 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ID-selector*/
+#product-overview {
+    background: #ff1b68;
+}
+
+/* class selector */
+.section-title {
+    color: #2ddf5c;
+}
+
